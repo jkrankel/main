@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'wpzoom-socicon';
-    src:  url('http://jmekrank.github.io/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.eot?v=4.1.1');
-    src:  url('http://jmekrank.github.io/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.eot?v=4.1.1') format('embedded-opentype'),
-      url('http://jmekrank.github.io/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.ttf?v=4.1.1') format('truetype'),
-      url('http://jmekrank.github.io/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.woff?v=4.1.1') format('woff'),
-      url('http://jmekrank.github.io/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.svg?v=4.1.1#socicon') format('svg');
+    src:  url('/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.eot?v=4.1.1');
+    src:  url('/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.eot?v=4.1.1') format('embedded-opentype'),
+      url('/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.ttf?v=4.1.1') format('truetype'),
+      url('/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.woff?v=4.1.1') format('woff'),
+      url('/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.svg?v=4.1.1#socicon') format('svg');
     font-weight: normal;
     font-style: normal;
     text-transform: initial;
