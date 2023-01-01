@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/wordpress/feed/" rel="self" type="application/rss+xml" />
 	<link>/main</link>
 	<description></description>
-	<lastBuildDate>Sat, 31 Dec 2022 20:16:50 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 01 Jan 2023 04:31:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,44 +28,6 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title></title>
-		<link>/main/2022/12/31/479/</link>
-					<comments>/main/2022/12/31/479/#respond</comments>
-		
-		<dc:creator><![CDATA[jkrank]]></dc:creator>
-		<pubDate>Sat, 31 Dec 2022 20:16:31 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/main/?p=479</guid>
-
-					<description><![CDATA[Outside the Lines Acrylic on Canvas, 2020 This piece captures an artist in a moment of chaos, distracted from her project. The clutter around her creates disorganization in the scene, and her action of painting her arm adds to the sense of mayhem. However, the bright color scheme and the subject&#8217;s calm expression illustrate that &#8230; <p class="link-more"><a href="/main/2022/12/31/479/" class="more-link">Read more<span class="screen-reader-text"> ""</span></a></p>]]></description>
-										<content:encoded><![CDATA[
-<div class="is-layout-flex wp-container-3 wp-block-columns">
-<div class="is-layout-flow wp-block-column" style="flex-basis:66.66%">
-<figure class="wp-block-image size-large"><img decoding="async" width="774" height="1024" src="/main/wp-content/uploads/2022/12/IMG_1089-3-774x1024.jpg" alt="" class="wp-image-480" srcset="/main/wp-content/uploads/2022/12/IMG_1089-3-774x1024.jpg 774w, /main/wp-content/uploads/2022/12/IMG_1089-3-227x300.jpg 227w, /main/wp-content/uploads/2022/12/IMG_1089-3-768x1016.jpg 768w, /main/wp-content/uploads/2022/12/IMG_1089-3-1162x1536.jpg 1162w, /main/wp-content/uploads/2022/12/IMG_1089-3-1549x2048.jpg 1549w, /main/wp-content/uploads/2022/12/IMG_1089-3-2000x2645.jpg 2000w, /main/wp-content/uploads/2022/12/IMG_1089-3-scaled.jpg 1936w" sizes="(max-width: 774px) 100vw, 774px" /></figure>
-</div>
-
-
-
-<div class="is-layout-flow wp-block-column" style="flex-basis:33.33%">
-<h1>Outside the Lines</h1>
-
-
-
-<p>Acrylic on Canvas, 2020</p>
-
-
-
-<p>This piece captures an artist in a moment of chaos, distracted from her project. The clutter around her creates disorganization in the scene, and her action of painting her arm adds to the sense of mayhem. However, the bright color scheme and the subject&#8217;s calm expression illustrate that this is not an unpleasant chaos. Rather, the scene evokes the contagious beauty of chaotic creativity. My painting is inspired by 17th-century European genre paintings, which capture scenes of everyday life.&nbsp;</p>
-</div>
-</div>
-]]></content:encoded>
-					
-					<wfw:commentRss>/main/2022/12/31/479/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>Peak</title>
 		<link>/main/2022/12/24/peak/</link>
 					<comments>/main/2022/12/24/peak/#respond</comments>
@@ -210,19 +172,25 @@
 		
 			</item>
 		<item>
-		<title>Left Behind</title>
-		<link>/main/2022/12/24/left-behind/</link>
-					<comments>/main/2022/12/24/left-behind/#respond</comments>
+		<title>OLD sketchbook</title>
+		<link>/main/2022/12/23/outside-the-lines/</link>
+					<comments>/main/2022/12/23/outside-the-lines/#respond</comments>
 		
 		<dc:creator><![CDATA[jkrank]]></dc:creator>
-		<pubDate>Sat, 24 Dec 2022 01:25:26 +0000</pubDate>
+		<pubDate>Fri, 23 Dec 2022 22:36:32 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">/main/?p=177</guid>
+		<guid isPermaLink="false">/main/?p=89</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[talking about the pajtidnad]]></description>
+										<content:encoded><![CDATA[
+<p>talking about the pajtidnad</p>
+
+
+
+<figure class="wp-block-image size-full is-style-default"><img decoding="async" width="1936" height="2560" src="/main/wp-content/uploads/2022/12/IMG_1089-2-scaled.jpg" alt="" class="wp-image-92" srcset="/main/wp-content/uploads/2022/12/IMG_1089-2-scaled.jpg 1936w, /main/wp-content/uploads/2022/12/IMG_1089-2-227x300.jpg 227w, /main/wp-content/uploads/2022/12/IMG_1089-2-774x1024.jpg 774w, /main/wp-content/uploads/2022/12/IMG_1089-2-768x1016.jpg 768w, /main/wp-content/uploads/2022/12/IMG_1089-2-1162x1536.jpg 1162w, /main/wp-content/uploads/2022/12/IMG_1089-2-1549x2048.jpg 1549w, /main/wp-content/uploads/2022/12/IMG_1089-2-2000x2645.jpg 2000w" sizes="(max-width: 1936px) 100vw, 1936px" /></figure>
+]]></content:encoded>
 					
-					<wfw:commentRss>/main/2022/12/24/left-behind/feed/</wfw:commentRss>
+					<wfw:commentRss>/main/2022/12/23/outside-the-lines/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
