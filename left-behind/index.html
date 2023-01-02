@@ -33,6 +33,7 @@ img.emoji {
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="foobox-free-min-css" href="/main/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17" media="all">
 <link rel="stylesheet" id="inspiro-google-fonts-css" href="/main/wp-content/fonts/e0e1a80abd6f792fde13dd1463604ce4.css?ver=1.7.6" media="all">
 <link rel="stylesheet" id="inspiro-style-css" href="/main/wp-content/themes/inspiro/assets/css/minified/style.min.css?ver=1.7.6" media="all">
 <style id="inspiro-style-inline-css">body, button, input, select, textarea {
@@ -110,11 +111,11 @@ line-height: 1.8;
 <link rel="stylesheet" id="wpzoom-social-icons-styles-css" href="/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-social-icons-styles.css?ver=1672440793" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="/main/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="/main/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.9.2" media="all">
-<link rel="stylesheet" id="elementor-post-9-css" href="/main/wp-content/uploads/elementor/css/post-9.css?ver=1672549460" media="all">
-<link rel="stylesheet" id="elementor-global-css" href="/main/wp-content/uploads/elementor/css/global.css?ver=1672549460" media="all">
-<link rel="stylesheet" id="elementor-post-780-css" href="/main/wp-content/uploads/elementor/css/post-780.css?ver=1672588316" media="all">
+<link rel="stylesheet" id="elementor-post-9-css" href="/main/wp-content/uploads/elementor/css/post-9.css?ver=1672636482" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="/main/wp-content/uploads/elementor/css/global.css?ver=1672636482" media="all">
 <link rel="stylesheet" id="wpzoom-elementor-addons-css-backend-image-box-css" href="/main/wp-content/plugins/wpzoom-elementor-addons/includes/widgets/image-box/backend.css?ver=1.1.21" media="all">
 <link rel="stylesheet" id="wpzoom-elementor-addons-css-backend-featured-category-css" href="/main/wp-content/plugins/wpzoom-elementor-addons/includes/widgets/featured-category/backend.css?ver=1.1.21" media="all">
+<link rel="stylesheet" id="elementor-post-780-css" href="/main/wp-content/uploads/elementor/css/post-780.css?ver=1672636528" media="all">
 <link rel="preload" as="font" id="wpzoom-social-icons-font-academicons-ttf-css" href="/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.ttf?v=1.9.2" type="font/ttf" crossorigin>
 <link rel="preload" as="font" id="wpzoom-social-icons-font-academicons-woff-css" href="/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.woff?v=1.9.2" type="font/woff" crossorigin>
 <link rel="preload" as="font" id="wpzoom-social-icons-font-fontawesome-3-ttf-css" href="/main/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fontawesome-webfont.ttf?v=4.7.0" type="font/ttf" crossorigin>
@@ -131,6 +132,30 @@ line-height: 1.8;
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 <script src="/main/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="/main/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script id="foobox-free-min-js-before">/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};</script>
+<script src="/main/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17" id="foobox-free-min-js"></script>
 <link rel="https://api.w.org/" href="/main/wp-json/">
 <link rel="alternate" type="application/json" href="/main/wp-json/wp/v2/pages/780">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/main/xmlrpc.php?rsd">
@@ -391,12 +416,20 @@ a:focus,
 							<nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
 					<ul id="menu-menu" class="nav navbar-nav">
 <li id="menu-item-642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-642"><a href="/main/">Home.</a></li>
-<li id="menu-item-677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="/main/artwork-4/">Artwork.</a></li>
+<li id="menu-item-677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="/main/artwork/">Artwork.</a></li>
 <li id="menu-item-847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-847"><a href="/main/sketchbook/">Sketchbook.</a></li>
 <li id="menu-item-868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-868"><a href="/main/engineering-projects/">Engineering Projects.</a></li>
 </ul>				</nav>
-						<div id="block-18" class="widget widget_block">
-<div class="is-layout-flex wp-block-buttons"></div>
+						<div id="block-72" class="widget widget_block widget_text">
+<p><a href="http://url/">Inspirations</a></p>
+<div class="clear"></div>
+</div>
+<div id="block-74" class="widget widget_block widget_text">
+<p><a href="http://url/">About</a></p>
+<div class="clear"></div>
+</div>
+<div id="block-76" class="widget widget_block widget_text">
+<p><a href="http://url/">Contact</a></p>
 <div class="clear"></div>
 </div>		</div>
 	</div>
@@ -417,7 +450,7 @@ a:focus,
 				<nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu" role="navigation">
 					<ul id="menu-menu-1" class="nav navbar-nav dropdown sf-menu">
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-642"><a href="/main/">Home.</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="/main/artwork-4/">Artwork.</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="/main/artwork/">Artwork.</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-847"><a href="/main/sketchbook/">Sketchbook.</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-868"><a href="/main/engineering-projects/">Engineering Projects.</a></li>
 </ul>				</nav>
@@ -508,7 +541,7 @@ a:focus,
 								<div class="elementor-element elementor-element-597a6b5a e-transform elementor-widget elementor-widget-image" data-id="597a6b5a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.2 - 21-12-2022 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="/main/wp-content/uploads/2023/01/Left-Behind-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="Left Behind" e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NzgyLCJ1cmwiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODg4OFwvd29yZHByZXNzXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIzXC8wMVwvTGVmdC1CZWhpbmQtc2NhbGVkLmpwZyJ9">
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="/main/wp-content/uploads/2023/01/Left-Behind-scaled.jpg">
 							<img decoding="async" width="744" height="1024" src="/main/wp-content/uploads/2023/01/Left-Behind-744x1024.jpg" class="attachment-large size-large wp-image-782" alt="" loading="lazy" srcset="/main/wp-content/uploads/2023/01/Left-Behind-744x1024.jpg 744w, /main/wp-content/uploads/2023/01/Left-Behind-218x300.jpg 218w, /main/wp-content/uploads/2023/01/Left-Behind-768x1057.jpg 768w, /main/wp-content/uploads/2023/01/Left-Behind-1116x1536.jpg 1116w, /main/wp-content/uploads/2023/01/Left-Behind-1488x2048.jpg 1488w, /main/wp-content/uploads/2023/01/Left-Behind-scaled.jpg 1860w" sizes="100vw">								</a>
 															</div>
 				</div>
@@ -776,7 +809,7 @@ a:focus,
 <script src="/main/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.9.2" id="elementor-frontend-modules-js"></script>
 <script src="/main/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="/main/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
-<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.9.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"kit-elements-defaults":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":780,"title":"Left%20Behind%20%E2%80%93%20Jaimie%20Krankel","excerpt":"","featuredImage":false}};</script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.9.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"kit-elements-defaults":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":780,"title":"Left%20Behind%20%E2%80%93%20Jaimie%20Krankel","excerpt":"","featuredImage":false}};</script>
 <script src="/main/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.9.2" id="elementor-frontend-js"></script>
 
 </body>
