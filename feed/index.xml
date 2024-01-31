@@ -12,13 +12,13 @@
 	<atom:link href="http://localhost/wordpress/feed/" rel="self" type="application/rss+xml" />
 	<link>/main</link>
 	<description></description>
-	<lastBuildDate>Mon, 02 Jan 2023 17:18:00 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 31 Jan 2024 01:13:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.4.3</generator>
 
 <image>
 	<url>/main/wp-content/uploads/2022/12/cropped-jk-logo-5-32x32.png</url>
