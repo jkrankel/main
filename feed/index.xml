@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Jaimie Krankel</title>
-	<atom:link href="http://localhost/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress/feed/?simply_static_page=122727" rel="self" type="application/rss+xml" />
 	<link>/main</link>
 	<description></description>
-	<lastBuildDate>Tue, 03 Dec 2024 01:58:12 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 21 Dec 2024 20:03:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
