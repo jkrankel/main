@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Jaimie Krankel</title>
-	<atom:link href="http://localhost/wordpress/feed/?simply_static_page=221787" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress/feed/?simply_static_page=225332" rel="self" type="application/rss+xml" />
 	<link>/main</link>
 	<description></description>
-	<lastBuildDate>Wed, 06 Aug 2025 03:22:41 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 16 Aug 2025 19:58:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -27,5 +27,41 @@
 	<width>32</width>
 	<height>32</height>
 </image> 
-</channel>
+	<item>
+		<title>post test</title>
+		<link>/main/2025/08/16/post-test/</link>
+					<comments>/main/2025/08/16/post-test/#respond</comments>
+		
+		<dc:creator><![CDATA[jkrank]]></dc:creator>
+		<pubDate>Sat, 16 Aug 2025 00:00:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/main/?p=2289</guid>
+
+					<description><![CDATA[This is the heading]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2289" class="elementor elementor-2289">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-3596213 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3596213" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2be5155" data-id="2be5155" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b883d17 elementor-widget elementor-widget-wpzoom-elementor-addons-image-box" data-id="b883d17" data-element_type="widget" data-widget_type="wpzoom-elementor-addons-image-box.default">
+				<div class="elementor-widget-container">
+							<div class="wpzoom-elementor-addons-image-box">
+			<h3>
+				<span class="wpzoom-elementor-addons-image-box-link not-linked has-image" style="background-image:url('/main/wp-content/plugins/elementor/assets/images/placeholder.png');"><span>This is the heading</span></span>			</h3>
+		</div><!-- //.wpzoom-elementor-addons-image-box -->
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/main/2025/08/16/post-test/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
 </rss>
